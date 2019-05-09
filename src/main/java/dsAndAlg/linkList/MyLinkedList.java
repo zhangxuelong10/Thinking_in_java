@@ -64,6 +64,12 @@ public class MyLinkedList {
      * 对链表进行排序，返回排序后的头结点
      */
     public Node orderList() {
+        Node nextNode = null;
+        int temp = 0;
+        Node curNode = head;
+        while(curNode.next!=null){
+            nextNode = curNode.next;
+        }
         return null;
     }
 }
