@@ -11,6 +11,7 @@ public class MyLinkedList {
         Node newNode = new Node(d);
         if (head == null) {
             head = newNode;
+            return;
         }
         Node tmp = head;
         while (tmp.next != null) {
@@ -67,9 +68,40 @@ public class MyLinkedList {
         Node nextNode = null;
         int temp = 0;
         Node curNode = head;
-        while(curNode.next!=null){
+        while (curNode.next != null) {
             nextNode = curNode.next;
+            while (nextNode != null) {
+                if (curNode.data > nextNode.data) {
+                    temp = curNode.data;
+                    curNode.data = nextNode.data;
+                    nextNode.data = temp;
+                }
+                nextNode = nextNode.next;
+            }
+            curNode = curNode.next;
         }
-        return null;
+        return head;
+    }
+
+    public void printList() {
+        Node tmp = head;
+        while (tmp != null) {
+            System.out.println(tmp.data);
+            tmp = tmp.next;
+        }
+    }
+
+    public static void main(String[] args) {
+        MyLinkedList list = new MyLinkedList();
+        list.addNode(5);
+        list.addNode(3);
+        list.addNode(1);
+        list.addNode(3);
+        System.out.println("listLen = " + list.length());
+        System.out.println("before order:");
+        list.printList();
+        list.orderList();
+        System.out.println("after order:");
+        list.printList();
     }
 }
