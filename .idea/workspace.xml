@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10e852f7-c4a2-4500-8100-27c120f16143" name="Default Changelist" comment="binary">
-      <change afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/file-changes/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/built.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/algorithm/Cmp1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/algorithm/Cmp2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/algorithm/IntCompare.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/algorithm/TestCmp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/chapter9/AdaptedRandomDoubles.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/chapter9/RandomDoubles.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/chapter9/TestHook.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/dsAndAlg/linkList/MyLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/dsAndAlg/linkList/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/offer/HasSubTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/offer/ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/offer/Merge.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/offer/Mirror.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/offer/PrintMatrix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/offer/ReverseList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/offer/Shuffle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/offer/Symmetrical.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/offer/TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/ThreeSumTwoPointer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsAndAlg/linkList/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsAndAlg/linkList/MyLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -46,24 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/offer/PrintMatrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/ThreeSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/ThreeSumSlow.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,11 +48,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/ThreeSumTwoPointer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dsAndAlg/linkList/MyLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="109" column="13" lean-forward="true" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dsAndAlg/linkList/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#118#119#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,7 +146,6 @@
         <option value="$PROJECT_DIR$/src/main/java/offer/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/offer/Symmetrical.java" />
         <option value="$PROJECT_DIR$/src/main/java/dsAndAlg/linkList/Node.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dsAndAlg/linkList/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/offer/PrintMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/ThreeSun.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/ThreeSum.java" />
@@ -176,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/main/java/algorithm/ThreeSumBinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/ThreeSumTwoPointer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dsAndAlg/linkList/MyLinkedList.java" />
       </list>
     </option>
   </component>
@@ -226,7 +204,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="dsAndAlg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinking_in_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinking_in_java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dsAndAlg" type="462c0819:PsiDirectoryNode" />
+              <item name="linkList" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,7 +224,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558352790457" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558354995740" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -310,7 +297,7 @@
       <workItem from="1558060824077" duration="1032000" />
       <workItem from="1558261565151" duration="733000" />
       <workItem from="1558318269955" duration="632000" />
-      <workItem from="1558352622871" duration="658000" />
+      <workItem from="1558352622871" duration="1583000" />
     </task>
     <task id="LOCAL-00001" summary="java面试宝典第八章、剑指offer">
       <created>1556436651361</created>
@@ -372,7 +359,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31081000" />
+    <option name="totallyTimeSpent" value="32006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -430,23 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dsAndAlg/linkList/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dsAndAlg/linkList/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="102" column="12" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -553,6 +523,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dsAndAlg/linkList/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dsAndAlg/linkList/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="109" column="13" lean-forward="true" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
         </state>
       </provider>
     </entry>

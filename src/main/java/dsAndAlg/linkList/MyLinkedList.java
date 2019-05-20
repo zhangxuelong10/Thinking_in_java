@@ -1,5 +1,7 @@
 package dsAndAlg.linkList;
 
+import java.util.Hashtable;
+
 public class MyLinkedList {
     // 链表头的引用
     private Node head = null;
@@ -83,7 +85,7 @@ public class MyLinkedList {
         return head;
     }
 
-    public void printList() {
+    private void printList() {
         Node tmp = head;
         while (tmp != null) {
             System.out.println(tmp.data);
@@ -103,5 +105,20 @@ public class MyLinkedList {
         list.orderList();
         System.out.println("after order:");
         list.printList();
+    }
+
+    public void deleteDuplecate(Node head) {
+        Hashtable<Integer, Integer> table = new Hashtable<>();
+        Node tmp = head;
+        Node pre = null;
+        while (tmp != null) {
+            if (table.containsKey(tmp.data)) {
+                pre.next = tmp.next;
+            } else {
+                table.put(tmp.data, 1);
+                pre = tmp;
+            }
+            tmp = tmp.next;
+        }
     }
 }
