@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.util.Arrays;
 
 public class code_03_MergeSort {
-    public static void sortProcess(int[] arr, int L, int R) {
+    private static void sortProcess(int[] arr, int L, int R) {
         if (L == R) {
             return;
         }
@@ -15,7 +15,7 @@ public class code_03_MergeSort {
         merge(arr, L, mid, R);
     }
 
-    public static void merge(int[] arr, int L, int mid, int R) {
+    private static void merge(int[] arr, int L, int mid, int R) {
         int[] help = new int[R - L + 1];
         int i = 0;
         int p1 = L;
