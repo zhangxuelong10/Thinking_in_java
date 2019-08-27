@@ -1,6 +1,6 @@
 package niuke;
 
-import org.junit.Test;
+//import org.junit.Test;
 
 import java.util.Arrays;
 
@@ -42,7 +42,7 @@ public class code_03_MergeSort {
     // 4 6 同理
     // 7 2 3 9 同理
 
-    @Test
+//    @Test
     public void test() {
         int[] arr = {5, 3, 4, 6};
         sortProcess(arr, 0, 3);

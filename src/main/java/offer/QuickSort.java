@@ -28,5 +28,5 @@ public class QuickSort {
         return new int[]{less + 1, more};
     }
 
-    
+
 }

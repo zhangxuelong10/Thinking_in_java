@@ -1,6 +1,6 @@
 package niuke;
 
-import org.junit.Test;
+//import org.junit.Test;
 
 import java.util.Arrays;
 
@@ -28,7 +28,7 @@ public class Code_00_BubbleSort {
         a[j] = tmp;
     }
 
-    @Test
+//    @Test
     public void testBubbleSort() {
         int[] arr = {1, 9, 7, 4};
         System.out.println(Arrays.toString(arr));
